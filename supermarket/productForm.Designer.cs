@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dataGridView_product = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.comboBox_categories = new System.Windows.Forms.ComboBox();
@@ -58,7 +59,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button_logout = new System.Windows.Forms.Button();
-            this.dataGridView_product = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_product)).BeginInit();
             this.SuspendLayout();
@@ -88,6 +88,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(810, 561);
             this.panel1.TabIndex = 0;
+            // 
+            // dataGridView_product
+            // 
+            this.dataGridView_product.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView_product.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_product.Location = new System.Drawing.Point(316, 80);
+            this.dataGridView_product.Name = "dataGridView_product";
+            this.dataGridView_product.RowTemplate.Height = 25;
+            this.dataGridView_product.Size = new System.Drawing.Size(483, 470);
+            this.dataGridView_product.TabIndex = 16;
             // 
             // label7
             // 
@@ -127,7 +137,7 @@
             this.button_delete.FlatAppearance.BorderSize = 0;
             this.button_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_delete.Font = new System.Drawing.Font("Constantia", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_delete.ForeColor = System.Drawing.Color.White;
+            this.button_delete.ForeColor = System.Drawing.Color.Black;
             this.button_delete.Location = new System.Drawing.Point(204, 338);
             this.button_delete.Name = "button_delete";
             this.button_delete.Size = new System.Drawing.Size(106, 63);
@@ -184,7 +194,7 @@
             // TextBox_qty
             // 
             this.TextBox_qty.BorderRadius = 18;
-            this.TextBox_qty.CustomizableEdges = customizableEdges25;
+            this.TextBox_qty.CustomizableEdges = customizableEdges1;
             this.TextBox_qty.DefaultText = "";
             this.TextBox_qty.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TextBox_qty.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -199,7 +209,7 @@
             this.TextBox_qty.PasswordChar = '\0';
             this.TextBox_qty.PlaceholderText = "";
             this.TextBox_qty.SelectedText = "";
-            this.TextBox_qty.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            this.TextBox_qty.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.TextBox_qty.Size = new System.Drawing.Size(171, 31);
             this.TextBox_qty.TabIndex = 7;
             // 
@@ -217,7 +227,7 @@
             // TextBox_price
             // 
             this.TextBox_price.BorderRadius = 18;
-            this.TextBox_price.CustomizableEdges = customizableEdges27;
+            this.TextBox_price.CustomizableEdges = customizableEdges3;
             this.TextBox_price.DefaultText = "";
             this.TextBox_price.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TextBox_price.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -232,7 +242,7 @@
             this.TextBox_price.PasswordChar = '\0';
             this.TextBox_price.PlaceholderText = "";
             this.TextBox_price.SelectedText = "";
-            this.TextBox_price.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            this.TextBox_price.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.TextBox_price.Size = new System.Drawing.Size(171, 31);
             this.TextBox_price.TabIndex = 5;
             // 
@@ -250,7 +260,7 @@
             // TextBox_name
             // 
             this.TextBox_name.BorderRadius = 18;
-            this.TextBox_name.CustomizableEdges = customizableEdges29;
+            this.TextBox_name.CustomizableEdges = customizableEdges5;
             this.TextBox_name.DefaultText = "";
             this.TextBox_name.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TextBox_name.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -265,7 +275,7 @@
             this.TextBox_name.PasswordChar = '\0';
             this.TextBox_name.PlaceholderText = "";
             this.TextBox_name.SelectedText = "";
-            this.TextBox_name.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            this.TextBox_name.ShadowDecoration.CustomizableEdges = customizableEdges6;
             this.TextBox_name.Size = new System.Drawing.Size(171, 31);
             this.TextBox_name.TabIndex = 3;
             // 
@@ -284,7 +294,7 @@
             // TextBox_id
             // 
             this.TextBox_id.BorderRadius = 18;
-            this.TextBox_id.CustomizableEdges = customizableEdges31;
+            this.TextBox_id.CustomizableEdges = customizableEdges7;
             this.TextBox_id.DefaultText = "";
             this.TextBox_id.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TextBox_id.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -299,7 +309,7 @@
             this.TextBox_id.PasswordChar = '\0';
             this.TextBox_id.PlaceholderText = "";
             this.TextBox_id.SelectedText = "";
-            this.TextBox_id.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            this.TextBox_id.ShadowDecoration.CustomizableEdges = customizableEdges8;
             this.TextBox_id.Size = new System.Drawing.Size(171, 31);
             this.TextBox_id.TabIndex = 1;
             // 
@@ -377,16 +387,6 @@
             this.button_logout.TabIndex = 19;
             this.button_logout.Text = "Log Out";
             this.button_logout.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView_product
-            // 
-            this.dataGridView_product.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView_product.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_product.Location = new System.Drawing.Point(316, 80);
-            this.dataGridView_product.Name = "dataGridView_product";
-            this.dataGridView_product.RowTemplate.Height = 25;
-            this.dataGridView_product.Size = new System.Drawing.Size(483, 470);
-            this.dataGridView_product.TabIndex = 16;
             // 
             // productForm
             // 
