@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges71 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges72 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges73 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges74 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges75 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges76 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.button_logout = new System.Windows.Forms.Button();
             this.dataGridView_Seller = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
@@ -147,7 +147,7 @@
             // TextBoxSeller_phone
             // 
             this.TextBoxSeller_phone.BorderRadius = 18;
-            this.TextBoxSeller_phone.CustomizableEdges = customizableEdges71;
+            this.TextBoxSeller_phone.CustomizableEdges = customizableEdges1;
             this.TextBoxSeller_phone.DefaultText = "";
             this.TextBoxSeller_phone.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TextBoxSeller_phone.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -162,7 +162,7 @@
             this.TextBoxSeller_phone.PasswordChar = '\0';
             this.TextBoxSeller_phone.PlaceholderText = "";
             this.TextBoxSeller_phone.SelectedText = "";
-            this.TextBoxSeller_phone.ShadowDecoration.CustomizableEdges = customizableEdges72;
+            this.TextBoxSeller_phone.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.TextBoxSeller_phone.Size = new System.Drawing.Size(170, 34);
             this.TextBoxSeller_phone.TabIndex = 7;
             // 
@@ -222,7 +222,7 @@
             // TextBoxSeller_age
             // 
             this.TextBoxSeller_age.BorderRadius = 18;
-            this.TextBoxSeller_age.CustomizableEdges = customizableEdges73;
+            this.TextBoxSeller_age.CustomizableEdges = customizableEdges3;
             this.TextBoxSeller_age.DefaultText = "";
             this.TextBoxSeller_age.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TextBoxSeller_age.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -237,7 +237,7 @@
             this.TextBoxSeller_age.PasswordChar = '\0';
             this.TextBoxSeller_age.PlaceholderText = "";
             this.TextBoxSeller_age.SelectedText = "";
-            this.TextBoxSeller_age.ShadowDecoration.CustomizableEdges = customizableEdges74;
+            this.TextBoxSeller_age.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.TextBoxSeller_age.Size = new System.Drawing.Size(170, 34);
             this.TextBoxSeller_age.TabIndex = 5;
             // 
@@ -266,7 +266,7 @@
             // TextBoxSeller_id
             // 
             this.TextBoxSeller_id.BorderRadius = 18;
-            this.TextBoxSeller_id.CustomizableEdges = customizableEdges75;
+            this.TextBoxSeller_id.CustomizableEdges = customizableEdges5;
             this.TextBoxSeller_id.DefaultText = "";
             this.TextBoxSeller_id.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TextBoxSeller_id.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -281,7 +281,7 @@
             this.TextBoxSeller_id.PasswordChar = '\0';
             this.TextBoxSeller_id.PlaceholderText = "";
             this.TextBoxSeller_id.SelectedText = "";
-            this.TextBoxSeller_id.ShadowDecoration.CustomizableEdges = customizableEdges76;
+            this.TextBoxSeller_id.ShadowDecoration.CustomizableEdges = customizableEdges6;
             this.TextBoxSeller_id.Size = new System.Drawing.Size(170, 34);
             this.TextBoxSeller_id.TabIndex = 1;
             // 
@@ -302,7 +302,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.Goldenrod;
-            this.button4.Location = new System.Drawing.Point(7, 275);
+            this.button4.Location = new System.Drawing.Point(7, 274);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(129, 63);
             this.button4.TabIndex = 24;
@@ -312,7 +312,7 @@
             // TextBoxSeller_name
             // 
             this.TextBoxSeller_name.BorderRadius = 18;
-            this.TextBoxSeller_name.CustomizableEdges = customizableEdges77;
+            this.TextBoxSeller_name.CustomizableEdges = customizableEdges7;
             this.TextBoxSeller_name.DefaultText = "";
             this.TextBoxSeller_name.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.TextBoxSeller_name.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -327,7 +327,7 @@
             this.TextBoxSeller_name.PasswordChar = '\0';
             this.TextBoxSeller_name.PlaceholderText = "";
             this.TextBoxSeller_name.SelectedText = "";
-            this.TextBoxSeller_name.ShadowDecoration.CustomizableEdges = customizableEdges78;
+            this.TextBoxSeller_name.ShadowDecoration.CustomizableEdges = customizableEdges8;
             this.TextBoxSeller_name.Size = new System.Drawing.Size(170, 34);
             this.TextBoxSeller_name.TabIndex = 3;
             // 
@@ -358,7 +358,7 @@
             // textBoxSeller_password
             // 
             this.textBoxSeller_password.BorderRadius = 18;
-            this.textBoxSeller_password.CustomizableEdges = customizableEdges79;
+            this.textBoxSeller_password.CustomizableEdges = customizableEdges9;
             this.textBoxSeller_password.DefaultText = "";
             this.textBoxSeller_password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.textBoxSeller_password.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -373,7 +373,7 @@
             this.textBoxSeller_password.PasswordChar = '●';
             this.textBoxSeller_password.PlaceholderText = "";
             this.textBoxSeller_password.SelectedText = "";
-            this.textBoxSeller_password.ShadowDecoration.CustomizableEdges = customizableEdges80;
+            this.textBoxSeller_password.ShadowDecoration.CustomizableEdges = customizableEdges10;
             this.textBoxSeller_password.Size = new System.Drawing.Size(170, 34);
             this.textBoxSeller_password.TabIndex = 18;
             this.textBoxSeller_password.UseSystemPasswordChar = true;
