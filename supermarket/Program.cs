@@ -12,7 +12,7 @@ namespace supermarket
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
          
-            Application.Run(new categoryForm());
+            Application.Run(new SellerForm());
         }
     }
 }

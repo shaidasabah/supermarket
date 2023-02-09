@@ -31,7 +31,7 @@ namespace supermarket
             {
                 CircleProgressBar.Value = 100;
                 timer1.Stop();
-               Form1 form1 = new Form1();
+               login form1 = new login();
                 this.Hide();
                 form1.Show();
 

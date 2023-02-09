@@ -60,9 +60,9 @@
             this.label1.Font = new System.Drawing.Font("Calisto MT", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(108, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(441, 32);
+            this.label1.Size = new System.Drawing.Size(430, 32);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Super Market Mangement System";
+            this.label1.Text = "Supermarket Mangement System";
             // 
             // CircleProgressBar
             // 
@@ -70,9 +70,11 @@
             this.CircleProgressBar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.CircleProgressBar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CircleProgressBar.ForeColor = System.Drawing.Color.White;
-            this.CircleProgressBar.Location = new System.Drawing.Point(268, 108);
+            this.CircleProgressBar.Location = new System.Drawing.Point(262, 120);
             this.CircleProgressBar.Minimum = 0;
             this.CircleProgressBar.Name = "CircleProgressBar";
+            this.CircleProgressBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CircleProgressBar.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CircleProgressBar.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.CircleProgressBar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.CircleProgressBar.Size = new System.Drawing.Size(130, 130);
@@ -88,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gold;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(660, 411);
             this.Controls.Add(this.CircleProgressBar);
             this.Controls.Add(this.label1);
